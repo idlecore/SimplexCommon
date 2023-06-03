@@ -1,0 +1,16 @@
+@startuml
+
+package Common {
+
+    object Object {
+
+    }
+
+    object Component {
+
+    }
+}
+
+Object o-- "Many" Component
+
+@endluml
